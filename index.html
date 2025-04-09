@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="form-container">
+        <h2>Registration Form</h2>
+        <form id="registrationForm">
+            <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" id="name" placeholder="Enter your name">
+                <div class="error" id="nameError"></div>
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" placeholder="Enter your email">
+                <div class="error" id="emailError"></div>
+            </div>
+            <div class="form-group">
+                <label for="password">Password</label>
+                <input type="password" id="password" placeholder="Enter your password">
+                <div class="error" id="passwordError"></div>
+            </div>
+            <div class="form-group">
+              <label for="Phonee number">Phon Number</label>
+              <input type="Phone number " id="Phone number" placeholder="Enter your number">
+              <div class="error" id="Phone number"></div>
+          </div>
+            <div class="form-group">
+              <label for="Address">Address</label>
+              <input type="Address" id="Address" placeholder="Enter your Address">
+              <div class="error" id="Address"></div>
+          </div>
+            <button type="button" onclick="validateForm()">Submit</button>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
